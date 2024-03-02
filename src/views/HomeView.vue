@@ -50,5 +50,7 @@ export default defineComponent({
     <span>{{ pCount }}</span>
     <button @click="increment">+</button>
     <button @click="handleReset">reset</button>
+
+    <router-link to="/todo"> 할일 목록으로 이동 </router-link>
   </main>
 </template>
