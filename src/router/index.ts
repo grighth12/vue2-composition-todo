@@ -8,11 +8,11 @@ const router = new VueRouter({
   mode: "history",
   base: "/",
   routes: [
-    // {
-    //   path: "/",
-    //   name: "home",
-    //   component: HomeView,
-    // },
+    {
+      path: "/",
+      name: "home",
+      component: HomeView,
+    },
   ],
 });
 
